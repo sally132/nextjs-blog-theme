@@ -10,7 +10,7 @@ import SEO from '../components/SEO';
 
 export default function Index({ posts, globalData }) {
   return (
-    <h1>뭐임</h1>
+ 
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
